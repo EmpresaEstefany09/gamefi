@@ -3,11 +3,43 @@
     padding: 0%;
     box-sizing: border-box;
 }
-header{
- background-color: #7ACDEE;
- text-align: center;
- height: 65px;
+html{
+    scroll-behavior: smooth;
 }
 body{
-    background-color: aliceblue;
+    background-color: #EBE4E4;
 }
+#container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+ background-color: #7ACDEE;
+ display: flex;
+ height: 65px;
+ justify-content: space-around;
+ position: fixed;
+ z-index: 1000;
+ width: 100%;
+}
+header nav h1{
+    color: #7ACDEE;
+    display: flex;
+    margin: 14px;
+    gap: 10px;
+    padding: 0px;
+}
+.menu{
+    margin: 70px;
+    position: fixed;
+    z-index: 1000;
+}
+.menu nav ul li a{
+    color: #7ACDEE ;
+    text-decoration: none;
+    font-size: 1.4rem;
+    display: flex;
+
+}
+
