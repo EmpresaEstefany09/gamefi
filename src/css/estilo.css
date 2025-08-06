@@ -24,7 +24,7 @@ header{
  width: 100%;
 }
 header nav h1{
-    color: #7ACDEE;
+    color: #00638a;
     display: flex;
     margin: 14px;
     gap: 10px;
@@ -34,12 +34,33 @@ header nav h1{
     margin: 70px;
     position: fixed;
     z-index: 1000;
+    margin-left: 15px;
 }
 .menu nav ul li a{
     color: #7ACDEE ;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     display: flex;
 
 }
+.menu nav a:hover{
+    color:aquamarine;
+    border-radius: 20px;
+    text-decoration: underline 1.5px rgb(64, 204, 255);
 
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    margin: 0 83px;
+    text-align: center;
+}
+.principal img{
+    width: 100%;
+}
+.texto{
+    display: flex;
+}
